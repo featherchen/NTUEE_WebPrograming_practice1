@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Gayathri&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Gayathri", sans-serif;
+}
+/* 背景顏色 */
+#grad{
+    background:black;                    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gray ,black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gray ,black);      /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gray ,black);    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gray ,black);     /* Standard syntax */
+}
+.title1{
+    font-size: 15px;   /*大小 */
+    font-weight: 500px;  /*粗細*/
+    color: #eee;
+    display: flex;
+    place-items: center;
+    place-content: center; 
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.title2{
+    margin: 0px auto;
+    font-size: 20px;   /*大小 */
+    font-weight: 500px;  /*粗細*/
+    color: #eee;
+    display: flex;
+    place-items: center;
+    place-content: center; 
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.title3{
+    margin: 0px auto;
+    font-size: 30px;   /*大小 */
+    font-weight: 500px;  /*粗細*/
+    color: #eee;
+    display: flex; 
+    place-items: center;
+    place-content: center; 
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.title4{
+    /* margin: 0px auto;  */
+    font-size: 25px;   /*大小 */
+    font-weight: 500px;  /*粗細*/
+    color: #eee;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:flex-start; */
+    /* align-items: flex-start;  */
+}
+#case{
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    /* display: flex; */
+    /* place-items: center; */
+    /* place-content: center;  */
+
+}
+
+#mainpic{
+    margin: 10px auto;  /*auto 置中  px 邊框 */
+    border-radius: 3%; /*邊框變圓，50%為圓形*/
+    background-image: url(./pics/justkidding_tech.jpg);
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    /* 對齊 */
+    align-items: center;
+    justify-content: center;
+
+    position: static;
+    background-size: contain;
+    /* background-attachment: fixed; 圖會跟著跑 */
+    /* background-position: center; */
+    flex-wrap: wrap; /*換行？*/
+}
+#maincase{
+    margin: 0px auto;  /*auto 置中  px 邊框 */
+    border-width :0px;
+    /* border-radius: 3%; 邊框變圓，50%為圓形 */
+    /* background-image: url(./pics/justkidding_tech.jpg); */
+    width: 800px;
+    height: 100px;
+    /* background:black; */
+    display: flex;
+    flex-direction: column;
+    /* 對齊 */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    position: static;
+    /* background-size: cover; */
+    /* background-attachment: fixed; 圖會跟著跑 */
+    /* background-position: center; */
+    flex-wrap: wrap; /*換行？*/
+}
+
+#bar{
+    margin: 10px auto;  /*auto 置中  px 邊框 */
+    /* border-radius: 3%; 邊框變圓，50%為圓形 */
+    background-image: url(./pics/bar.png);
+    width: 800px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    /* 對齊 */
+    align-items: center;
+    justify-content: center;
+
+    position: static;
+    background-size: 100% 100%;  /*拉到整個box滿 */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; 圖會跟著跑 */
+    /* background-position: center; */
+    /* flex-wrap: wrap; 換行？ */
+}
+#rowcase{
+    margin: 0px auto;  /*auto 置中  px 邊框 */
+    border-width :0px;
+    /* border-radius: 3%; 邊框變圓，50%為圓形 */
+    /* background-image: url(./pics/justkidding_tech.jpg); */
+    width: 800px;
+    height: 120px;
+    /* background:rgb(107, 103, 103); */
+    display: flex;
+    flex-direction: row;
+    /* 對齊 */
+    align-items:center ; 
+    justify-content:space-between;
+
+    /* position: static; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; 圖會跟著跑 */
+    /* background-position: center; */
+    flex-wrap: wrap; /*換行？*/
+}
+
+.item{
+    margin: 0px auto;
+    width: 80px;
+    height: 80px;
+    
+}
